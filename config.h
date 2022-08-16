@@ -21,6 +21,6 @@ static unsigned int lines      = 0;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
-static unsigned int borderwidth = 2;
+static unsigned int borderwidth = 3;
 static unsigned int bordervisible = 0;
 static const unsigned int gappx = 10;
