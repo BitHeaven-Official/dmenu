@@ -767,9 +767,9 @@ main(int argc, char *argv[])
 		else if (!strcmp(argv[i], "-w"))   /* embedding window id */
 			embed = argv[++i];
 		else if (!strcmp(argv[i], "-bw"))
-			borderwidth = (unsigned int)argv[++i];
+			borderwidth = atoi(argv[++i]);
 		else if (!strcmp(argv[i], "-bv"))
-			bordervisible = (unsigned int)argv[++i];
+			bordervisible = atoi(argv[++i]);
 		else
 			usage();
 
