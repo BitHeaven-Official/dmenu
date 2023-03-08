@@ -1,5 +1,5 @@
 # dmenu version
-VERSION = 5.1
+VERSION = bit_1.0
 
 # paths
 PREFIX = /usr/local
